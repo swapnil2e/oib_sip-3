@@ -1,0 +1,46 @@
+body{
+    background: #9e8aef;
+}
+
+.container {
+    margin-left: 300px;
+}
+
+.text-box {
+    width: 800px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 24px;
+}
+
+.task {
+    font-size: 22px;
+}
+
+.fas {
+    margin-left: 15px;
+}
+
+.fas:hover {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    margin-left: 1200px;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: rgba(238, 246, 14, 0.733);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
